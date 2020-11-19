@@ -36,6 +36,7 @@ const countBill = () => {
     cost.textContent = sum.toFixed(2)
 
     console.log(sum);
+    console.log("test");
 }
 
 
