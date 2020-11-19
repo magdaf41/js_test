@@ -26,9 +26,6 @@ const countBill = () => {
     const newPeople = parseInt(people.value);
     const newTip = parseFloat(tip.value);
 
-    console.log(newPrice);
-    console.log(newPeople);
-    console.log(newTip);
     const sum = (newPrice + (newTip * newPrice)) / newPeople;
 
     costInfo.style.display = "block";
